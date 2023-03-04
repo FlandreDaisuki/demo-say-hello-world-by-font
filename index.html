@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Say "Hello, world!" by font</title>
+  <style>
+    @font-face {
+      font-family: "MyDejaVuSans";
+      src: url("MyDejaVuSans.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "DejaVuSans";
+      src: url("DejaVuSans.ttf") format("truetype");
+    }
+    .dj {
+      font-family: 'DejaVuSans';
+    }
+    .mf {
+      font-family: 'MyDejaVuSans';
+    }
+  </style>
+</head>
+<body>
+  <h1>System Font</h1>
+  <h2>Hello, world!</h2>
+
+  <h1 class="dj">DejaVuSans Font</h1>
+  <h2 class="dj">Hello, world!</h2>
+
+  <h1 class="mf">⋒⅄ ℉↓∩₸</h1>
+  <h2 class="mf">←↑→→↓↔ ↕↓↖→↗↘</h2>
+</body>
+</html>
